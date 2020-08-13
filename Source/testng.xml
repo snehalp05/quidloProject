@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="false" thread-count="1">
+
+
+
+  <test name="QuidloTest" preserve-order="true">
+      
+      <classes >
+      <class name="com.qa.quidlo.test.HomePageTest"/>
+      <class name="com.qa.quidlo.test.SignupPageTest"/>
+      
+      <class name="com.qa.quidlo.test.SignInPageTest"/>
+      </classes>
+  
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

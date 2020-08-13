@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="170363" started-at="2020-07-27T19:43:45Z" finished-at="2020-07-27T19:46:35Z">
+    <groups>
+    </groups>
+    <test name="QuidloTest" duration-ms="170363" started-at="2020-07-27T19:43:45Z" finished-at="2020-07-27T19:46:35Z">
+      <class name="com.qa.quidlo.test.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="13045" started-at="2020-07-28T01:15:28Z" finished-at="2020-07-28T01:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifySignInPageTest()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="verifySignInPageTest" duration-ms="30" started-at="2020-07-28T01:15:41Z" finished-at="2020-07-28T01:15:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Sign In Page title does not match expected [Timesheets			] but found [Timesheets]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Sign In Page title does not match expected [Timesheets			] but found [Timesheets]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.qa.quidlo.test.SignInPageTest.verifySignInPageTest(SignInPageTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="689" started-at="2020-07-28T01:15:42Z" finished-at="2020-07-28T01:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="9488" started-at="2020-07-28T01:15:44Z" finished-at="2020-07-28T01:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="verifySignInTest" duration-ms="22598" started-at="2020-07-28T01:15:54Z" data-provider="getDataFromExcel" finished-at="2020-07-28T01:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.quidlo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Snehalpatil@6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sign in successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="779" started-at="2020-07-28T01:16:16Z" finished-at="2020-07-28T01:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="9962" started-at="2020-07-28T01:16:17Z" finished-at="2020-07-28T01:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="verifySignInTest" duration-ms="7728" started-at="2020-07-28T01:16:27Z" data-provider="getDataFromExcel" finished-at="2020-07-28T01:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Snehalpatil@6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Credentials are invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.SignInPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="765" started-at="2020-07-28T01:16:35Z" finished-at="2020-07-28T01:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.quidlo.test.SignInPageTest -->
+      <class name="com.qa.quidlo.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="27376" started-at="2020-07-28T01:13:45Z" finished-at="2020-07-28T01:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="verifyHomePageTitle" duration-ms="31" started-at="2020-07-28T01:14:13Z" finished-at="2020-07-28T01:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="tearDown" is-config="true" duration-ms="1363" started-at="2020-07-28T01:14:13Z" finished-at="2020-07-28T01:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="12493" started-at="2020-07-28T01:14:14Z" finished-at="2020-07-28T01:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpPageNav()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="verifySignUpPageNav" duration-ms="6745" started-at="2020-07-28T01:14:26Z" finished-at="2020-07-28T01:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageNav -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.HomePageTest@57baeedf]" name="tearDown" is-config="true" duration-ms="1716" started-at="2020-07-28T01:14:33Z" finished-at="2020-07-28T01:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.quidlo.test.HomePageTest -->
+      <class name="com.qa.quidlo.test.SignupPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="30612" started-at="2020-07-28T01:14:35Z" finished-at="2020-07-28T01:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignupPageTest()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="verifySignupPageTest" duration-ms="541" started-at="2020-07-28T01:15:05Z" finished-at="2020-07-28T01:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="2177" started-at="2020-07-28T01:15:06Z" finished-at="2020-07-28T01:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="14968" started-at="2020-07-28T01:15:08Z" finished-at="2020-07-28T01:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignupTest()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="verifySignupTest" duration-ms="3870" started-at="2020-07-28T01:15:23Z" finished-at="2020-07-28T01:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.quidlo.test.SignupPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1397" started-at="2020-07-28T01:15:27Z" finished-at="2020-07-28T01:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.quidlo.test.SignupPageTest -->
+    </test> <!-- QuidloTest -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

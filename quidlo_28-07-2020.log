@@ -1,0 +1,52 @@
+2020-07-28 01:13:45,727  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:13:59,111  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:14:13,038  INFO [main] TestBase:30 -            Testcase to verify Home page title
+2020-07-28 01:14:13,038  INFO [main] TestBase:24 - Getting the page title on Home Page
+2020-07-28 01:14:13,053 DEBUG [main] TestBase:34 - Checking the Home page title
+2020-07-28 01:14:14,416  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:14:21,117  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:14:26,910  INFO [main] TestBase:45 -            Testcase to verify navigation to sign up page
+2020-07-28 01:14:26,911  INFO [main] TestBase:46 - Navigating to Sign up page
+2020-07-28 01:14:26,911  INFO [main] TestBase:31 - Click on Sign up link
+2020-07-28 01:14:35,371  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:14:42,470  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:14:49,602  INFO [main] TestBase:31 - Click on Sign up link
+2020-07-28 01:15:05,984  INFO [main] TestBase:32 -            Testcase to verify Sign up page title
+2020-07-28 01:15:05,985  INFO [main] TestBase:29 - Getting the title from signup page
+2020-07-28 01:15:06,524 DEBUG [main] TestBase:35 - Checking the Sign up page title
+2020-07-28 01:15:08,702  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:15:14,035  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:15:20,639  INFO [main] TestBase:31 - Click on Sign up link
+2020-07-28 01:15:23,672  INFO [main] TestBase:45 -            Testcase to verify Sign up process
+2020-07-28 01:15:23,729  INFO [main] TestBase:35 - Entering email address: test.quidlo@gmail.com
+2020-07-28 01:15:25,485  INFO [main] TestBase:39 - Entering password: Snehalpatil@6
+2020-07-28 01:15:25,774  INFO [main] TestBase:43 - Selecting Terms checkbox
+2020-07-28 01:15:26,009  INFO [main] TestBase:47 - Clicking on Signup button
+2020-07-28 01:15:26,302  INFO [main] TestBase:51 - Retrieving message on the page
+2020-07-28 01:15:27,540 DEBUG [main] TestBase:48 - Checking the success Message on screen
+2020-07-28 01:15:28,937  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:15:35,284  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:15:41,984  INFO [main] TestBase:30 -            Testcase to verify Sign in page title
+2020-07-28 01:15:41,984  INFO [main] TestBase:28 - Getting the sign in page title
+2020-07-28 01:15:42,010 DEBUG [main] TestBase:33 - Checking the sign in page title
+2020-07-28 01:15:44,655  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:15:49,126  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:15:54,144  INFO [main] TestBase:49 -            Testcase to verify login
+2020-07-28 01:15:54,144  INFO [main] TestBase:35 - Entering email id: test.quidlo@gmail.com
+2020-07-28 01:15:55,349  INFO [main] TestBase:38 - Enter Password: 
+2020-07-28 01:15:55,698  INFO [main] TestBase:41 - Click on Sign in
+2020-07-28 01:16:16,741 ERROR [main] TestBase:55 - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (449ccbf32dcb42110d852e7f034f4fbe)] -> xpath: //div[@class='Toaster-style__toaster___1WB4l']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-0KRJ83MC', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SNEHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 449ccbf32dcb42110d852e7f034f4fbe
+2020-07-28 01:16:16,741 ERROR [main] TestBase:56 - [Ljava.lang.StackTraceElement;@175acfb2
+2020-07-28 01:16:17,521  INFO [main] TestBase:57 - Launching the chrome browser
+2020-07-28 01:16:22,640  INFO [main] TestBase:81 - Applying browser settings
+2020-07-28 01:16:27,484  INFO [main] TestBase:49 -            Testcase to verify login
+2020-07-28 01:16:27,484  INFO [main] TestBase:35 - Entering email id: test.test@gmail.com
+2020-07-28 01:16:28,728  INFO [main] TestBase:38 - Enter Password: 
+2020-07-28 01:16:29,080  INFO [main] TestBase:41 - Click on Sign in
+2020-07-28 01:16:35,161  INFO [main] TestBase:48 - Getting the sign in message on the page
+2020-07-28 01:16:35,210 DEBUG [main] TestBase:52 - Checking the Sign in message on the screen
